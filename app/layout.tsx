@@ -1,10 +1,6 @@
-"use client";
-
-import type { Metadata } from "next";
-import { useEffect } from "react";
-
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Ahmed ElShennawy",
@@ -20,16 +16,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  useEffect(() => {
-    // @ts-ignore
-    import("bootstrap/dist/js/bootstrap.bundle.min.js");
-  }, []);
-
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
+      <head />
       <body style={{ fontFamily: "regular, sans-serif" }}>{children}</body>
     </html>
   );

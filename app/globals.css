@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,8 +44,18 @@ a {
   text-decoration: none;
 }
 
+section {
+  padding: 40px 0px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    font-size: 14px;
   }
 }
