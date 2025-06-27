@@ -5,12 +5,15 @@ import {
   FaBootstrap,
   FaCss3Alt,
   FaGitAlt,
+  FaHandsHelping,
   FaHtml5,
   FaReact,
 } from "react-icons/fa";
 import { SiJavascript, SiNetlify, SiTypescript } from "react-icons/si";
 import { BsFiletypeScss } from "react-icons/bs";
 import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
+import { FaBoltLightning, FaMobileScreen } from "react-icons/fa6";
+import { TfiTarget } from "react-icons/tfi";
 
 const About = () => {
   const { ref, inView } = useInView({
@@ -49,7 +52,7 @@ const About = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className={`${styles.glassmorphism} col-lg-5 col-10`}
+            className={`${styles.glassmorphism} col-lg-4 col-10`}
           >
             <h5>
               I&apos;m Ahmed ElShennawy
@@ -116,6 +119,66 @@ const About = () => {
                 <SiNetlify />
               </span>
             </div>
+          </motion.div>
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
+            className={`${styles.glassmorphism} row col-lg-3 m-0 col-10`}
+          >
+            <h4 className="co-12">
+              <FaBoltLightning /> Fast & Focused
+            </h4>
+            <p className="co-12">
+              I move quickly without cutting corners — delivering clean builds
+              fast, then refining with precision.
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
+            className={`${styles.glassmorphism} row col-lg-3 m-0 col-10`}
+          >
+            <h4 className="co-12">
+              <TfiTarget /> Pixel Precision
+            </h4>
+            <p className="co-12">
+              Every component I craft is intentional — I obsess over alignment,
+              spacing, and visual clarity.
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
+            className={`${styles.glassmorphism} row col-lg-3 m-0 col-10`}
+          >
+            <h4 className="co-12">
+              <FaMobileScreen /> Mobile-First Always
+            </h4>
+            <p className="co-12">
+              From the smallest screens up, I design interfaces that feel
+              smooth, natural, and touch-friendly.
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
+            className={`${styles.glassmorphism} row col-lg-3 m-0 col-10`}
+          >
+            <h4 className="co-12">
+              <FaHandsHelping /> Clarity Wins
+            </h4>
+            <p className="co-12">
+              Whether in code or communication, I keep things clear — no
+              guesswork, no messy logic.
+            </p>
           </motion.div>
         </div>
       </section>

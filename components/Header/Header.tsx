@@ -32,14 +32,14 @@ const Header = () => {
           >
             Function meets finesse.
           </motion.h1>
-          <motion.h5
+          <motion.h6
             style={{ overflow: "hidden", whiteSpace: "nowrap" }}
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
             transition={{ duration: 2, ease: "easeInOut" }}
           >
             Ahmed ElShennawy. React nerd. Pixel perfectionist.
-          </motion.h5>
+          </motion.h6>
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
