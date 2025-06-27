@@ -16,7 +16,7 @@ import { FaBoltLightning, FaMobileScreen } from "react-icons/fa6";
 import { TfiTarget } from "react-icons/tfi";
 
 const About = () => {
-  const { ref, inView } = useInView({
+  const { ref } = useInView({
     threshold: 0.3,
     triggerOnce: true,
   });

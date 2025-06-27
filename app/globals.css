@@ -24,10 +24,6 @@ body {
   font-family: "regular", sans-serif;
 }
 
-img {
-  width: 100%;
-}
-
 body {
   position: relative;
   overflow-x: hidden;
@@ -65,15 +61,6 @@ section {
 
 .projectCard {
   margin: 0 !important;
-
-  .img {
-    padding: 0;
-    border-radius: 8px;
-    overflow: hidden;
-    img {
-      border-radius: 8px;
-    }
-  }
 
   .content {
     .toWebApp {

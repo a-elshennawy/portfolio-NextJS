@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import styles from "./Samples.module.scss";
@@ -6,7 +7,7 @@ import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
 import { SiJavascript, SiNetlify } from "react-icons/si";
 
 const Samples = () => {
-  const { ref, inView } = useInView({
+  const { ref } = useInView({
     threshold: 0.3,
     triggerOnce: true,
   });
@@ -31,11 +32,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/watchesShop.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -76,11 +86,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/coffeeShop.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -116,11 +135,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/dayapp.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -157,11 +185,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/sshop.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -198,11 +235,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/gym.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -243,11 +289,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/fitguid.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -298,11 +353,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/sa3dola.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -343,11 +407,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/gladiator.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -389,11 +462,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/hurst.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -431,11 +513,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/fixera.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
@@ -473,11 +564,20 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
-            <div className="img col-12">
-              <img
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/confer.webp"
-                alt="project perview"
+                alt="project preview"
+                fill
                 loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
