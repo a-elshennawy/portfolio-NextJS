@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Header from "@/components/Header/Header";
+import About from "@/components/About/About";
 
 export default function Home() {
   useEffect(() => {
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <About />
     </>
   );
 }
