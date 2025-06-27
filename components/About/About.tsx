@@ -52,7 +52,7 @@ const About = () => {
             className={`${styles.glassmorphism} col-lg-5 col-10`}
           >
             <h5>
-              I'm Ahmed ElShennawy
+              I&apos;m Ahmed ElShennawy
               <br /> a self-driven front-end developer with a strong eye for
               detail and a love for clean, responsive interfaces. I blend
               creative intuition with technical discipline to turn ideas into
