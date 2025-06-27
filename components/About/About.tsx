@@ -59,8 +59,8 @@ const About = () => {
               smooth, performant user experiences.
             </h5>
             <p>
-              I treat every UI like it's a final boss fight — nothing sloppy
-              survives.
+              I treat every UI like it&apos;s a final boss fight — nothing
+              sloppy survives.
             </p>
           </motion.div>
           <motion.div
