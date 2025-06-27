@@ -1,7 +1,6 @@
 .about {
   position: relative;
   background-color: #000;
-  overflow: hidden;
 
   .textArea {
     text-align: center;
@@ -9,74 +8,5 @@
     border-radius: 8px;
     padding: 10px 5px;
     color: #fff;
-
-    span {
-      background-color: #fff;
-      color: #000;
-      padding: 10px;
-      text-align: center;
-      border-radius: 5px;
-      font-size: 0.625rem;
-      font-weight: bolder;
-
-      svg {
-        margin: 0px 5px;
-      }
-    }
-
-    .glassmorphism {
-      padding: 10px 5px;
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    }
-
-    .react {
-      background-color: #3978ff;
-      color: #fff;
-    }
-    .JavaScript {
-      background-color: #fbff00;
-      color: #000;
-    }
-    .TypeScript {
-      background-color: #3978ff;
-      color: #000;
-    }
-    .html {
-      background-color: #ffaa3c;
-      color: #fff;
-    }
-    .css {
-      background-color: #de39ff;
-      color: #fff;
-    }
-    .bootstrap {
-      background-color: #9f39ff;
-      color: #fff;
-    }
-    .scss {
-      background-color: #ff00bf;
-      color: #fff;
-    }
-    .git {
-      background-color: #fd0000;
-      color: #fff;
-    }
-    .firestore {
-      background-image: linear-gradient(to right, #fd0000, #ffaa3c);
-      color: #000;
-    }
-    .vercel {
-      background-color: #fff;
-      color: #000;
-    }
-    .netlify {
-      background-color: #036800;
-      color: #fff;
-    }
   }
 }

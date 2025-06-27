@@ -47,12 +47,12 @@ const Header = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             className={`${styles.socials} row`}
           >
-            <span className={`${styles.span} ${styles.whatsapp} col-2`}>
+            <div className={`${styles.socialItem} ${styles.whatsapp} col-2`}>
               <a target="_blank" href="https://wa.me/201033926177">
                 <FaWhatsapp />
               </a>
-            </span>
-            <span className={`${styles.span} ${styles.linkedin} col-2`}>
+            </div>
+            <div className={`${styles.socialItem} ${styles.linkedin} col-2`}>
               <a
                 className={`${styles.a}`}
                 target="_blank"
@@ -60,8 +60,8 @@ const Header = () => {
               >
                 <FaLinkedin />
               </a>
-            </span>
-            <span className={`${styles.span} ${styles.github} col-2`}>
+            </div>
+            <div className={`${styles.socialItem} ${styles.github} col-2`}>
               <a
                 className={`${styles.a}`}
                 target="_blank"
@@ -69,8 +69,8 @@ const Header = () => {
               >
                 <FaGithub />
               </a>
-            </span>
-            <span className={`${styles.span} ${styles.instagram} col-2`}>
+            </div>
+            <div className={`${styles.socialItem} ${styles.instagram} col-2`}>
               <a
                 className={`${styles.a}`}
                 target="_blank"
@@ -78,8 +78,8 @@ const Header = () => {
               >
                 <FaInstagram />
               </a>
-            </span>
-            <span className={`${styles.span} ${styles.discord} col-2`}>
+            </div>
+            <div className={`${styles.socialItem} ${styles.discord} col-2`}>
               <a
                 className={`${styles.a}`}
                 target="_blank"
@@ -87,8 +87,8 @@ const Header = () => {
               >
                 <FaDiscord />
               </a>
-            </span>
-            <span className={`${styles.span} ${styles.gmail} col-2`}>
+            </div>
+            <div className={`${styles.socialItem} ${styles.gmail} col-2`}>
               <a
                 className={`${styles.a}`}
                 href="mailto:ahmedshennawy997@gmail.com"
@@ -102,7 +102,7 @@ const Header = () => {
               >
                 <MdOutlineAlternateEmail />
               </a>
-            </span>
+            </div>
           </motion.div>
 
           <motion.div

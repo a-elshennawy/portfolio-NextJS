@@ -26,24 +26,8 @@ const About = () => {
       <section
         ref={ref}
         id="about"
-        className={`${styles.about} container-fluid`}
+        className={`${styles.about} container-fluid relative`}
       >
-        <motion.div
-          initial={{ opacity: 0, y: -100 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 1.5 }}
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            backgroundImage:
-              "radial-gradient(circle at center, rgba(255, 255, 255, 0.15), transparent 60%)",
-            zIndex: 1,
-          }}
-        />
-
         <div
           className={`${styles.textArea} row justify-content-center align-items-center gap-2 `}
         >
@@ -52,7 +36,7 @@ const About = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className={`${styles.glassmorphism} col-lg-4 col-10`}
+            className="col-lg-4 col-10 glassmorphism"
           >
             <h5>
               I&apos;m Ahmed ElShennawy
@@ -71,50 +55,50 @@ const About = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: false, amount: 0.3 }}
-            className={`${styles.glassmorphism} col-lg-5 col-10`}
+            className="col-lg-5 col-10 glassmorphism"
           >
             <h3 className="py-1">Tech Stack</h3>
             <div className="row w-100 justify-content-center align-items-center gap-1">
-              <span className={`${styles.react} col-lg-2 col-3`}>
+              <span className="react col-lg-2 col-3">
                 React <FaReact />
               </span>
-              <span className={`${styles.JavaScript} col-lg-2 col-3`}>
+              <span className="JavaScript col-lg-2 col-3">
                 JavaScript
                 <SiJavascript />
               </span>
-              <span className={`${styles.TypeScript} col-lg-2 col-3`}>
+              <span className="TypeScript col-lg-2 col-3">
                 TypeScript
                 <SiTypescript />
               </span>
-              <span className={`${styles.html} col-lg-2 col-3`}>
+              <span className="html col-lg-2 col-3">
                 HTML
                 <FaHtml5 />
               </span>
-              <span className={`${styles.css} col-lg-2 col-3`}>
+              <span className="css col-lg-2 col-3">
                 CSS
                 <FaCss3Alt />
               </span>
-              <span className={`${styles.bootstrap} col-lg-2 col-3`}>
+              <span className="bootstrap col-lg-2 col-3">
                 Bootstrap
                 <FaBootstrap />
               </span>
-              <span className={`${styles.scss} col-lg-2 col-3`}>
+              <span className="scss col-lg-2 col-3">
                 SCSS
                 <BsFiletypeScss />
               </span>
-              <span className={`${styles.git} col-lg-2 col-3`}>
+              <span className="git col-lg-2 col-3">
                 Git
                 <FaGitAlt />
               </span>
-              <span className={`${styles.firestore} col-lg-2 col-3`}>
+              <span className="firebase col-lg-2 col-3">
                 Firebase
                 <IoLogoFirebase />
               </span>
-              <span className={`${styles.vercel} col-lg-2 col-3`}>
+              <span className="vercel col-lg-2 col-3">
                 Vercel
                 <IoLogoVercel />
               </span>
-              <span className={`${styles.netlify} col-lg-2 col-3`}>
+              <span className="netlify col-lg-2 col-3">
                 Netlify
                 <SiNetlify />
               </span>
@@ -125,7 +109,7 @@ const About = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className={`${styles.glassmorphism} row col-lg-3 m-0 col-10`}
+            className="row col-lg-3 m-0 col-10 glassmorphism"
           >
             <h4 className="co-12">
               <FaBoltLightning /> Fast & Focused
@@ -140,7 +124,7 @@ const About = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className={`${styles.glassmorphism} row col-lg-3 m-0 col-10`}
+            className="row col-lg-3 m-0 col-10 glassmorphism"
           >
             <h4 className="co-12">
               <TfiTarget /> Pixel Precision
@@ -155,7 +139,7 @@ const About = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className={`${styles.glassmorphism} row col-lg-3 m-0 col-10`}
+            className="row col-lg-3 m-0 col-10 glassmorphism"
           >
             <h4 className="co-12">
               <FaMobileScreen /> Mobile-First Always
@@ -170,7 +154,7 @@ const About = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className={`${styles.glassmorphism} row col-lg-3 m-0 col-10`}
+            className="row col-lg-3 m-0 col-10 glassmorphism"
           >
             <h4 className="co-12">
               <FaHandsHelping /> Clarity Wins
