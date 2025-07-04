@@ -53,21 +53,25 @@ const Samples = () => {
                 El-Sokarya <br />
                 Fullstack Oriented Front-End WebApp for a Watches Shop
               </h5>
-              <span className="react col-3">
-                React <FaReact />
+              <span className="col-3">
+                React
+                <FaReact />
               </span>
-              <span className="JavaScript col-3">
-                JavaScript <SiJavascript />
+              <span className="col-3">
+                JavaScript
+                <SiJavascript />
               </span>
-              <span className="firebase col-3">
-                Firebase <IoLogoFirebase />
+              <span className="col-3">
+                Firebase
+                <IoLogoFirebase />
               </span>
-              <span className="css col-3">
+              <span className="col-3">
                 CSS
                 <FaCss3Alt />
               </span>
-              <span className="bootstrap col-3">
-                Bootstrap <FaBootstrap />
+              <span className="col-3">
+                Bootstrap
+                <FaBootstrap />
               </span>
               <div className="col-12 py-1">
                 <button className="toWebApp">
@@ -106,16 +110,16 @@ const Samples = () => {
               <h5 className="col-12 py-2">
                 React Project for a resturant / Cafe
               </h5>
-              <span className="react col-3">
+              <span className="col-3">
                 React <FaReact />
               </span>
-              <span className="JavaScript col-3">
+              <span className="col-3">
                 JavaScript <SiJavascript />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="netlify col-3">
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">
@@ -156,16 +160,16 @@ const Samples = () => {
                 Islamic App <br />
                 (Date / Weather / Prayers / Quran / Azkar)
               </h5>
-              <span className="html col-3">
+              <span className="col-3">
                 HTML <FaHtml5 />
               </span>
-              <span className="JavaScript col-3">
+              <span className="col-3">
                 JavaScript <SiJavascript />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="netlify col-3">
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">
@@ -206,16 +210,16 @@ const Samples = () => {
                 sshop <br />
                 an E-Commerce Template
               </h5>
-              <span className="html col-3">
+              <span className="col-3">
                 HTML <FaHtml5 />
               </span>
-              <span className="JavaScript col-3">
+              <span className="col-3">
                 JavaScript <SiJavascript />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="netlify col-3">
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">
@@ -256,17 +260,17 @@ const Samples = () => {
                 Gladiator Gym <br />
                 Basic template for Commercial Gym
               </h5>
-              <span className="html col-3">
+              <span className="col-3">
                 HTML <FaHtml5 />
               </span>
-              <span className="css col-3">
+              <span className="col-3">
                 CSS
                 <FaCss3Alt />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="vercel col-3">
+              <span className="col-3">
                 Vercel <IoLogoVercel />
               </span>
               <div className="col-12 py-1">
@@ -310,20 +314,20 @@ const Samples = () => {
                 FitGuide <br />
                 Rescue Mission for a Graduation Project
               </h5>
-              <span className="react col-3">
+              <span className="col-3">
                 Raact <FaReact />
               </span>
-              <span className="JavaScript col-3">
+              <span className="col-3">
                 JavaScript <SiJavascript />
               </span>
-              <span className="css col-3">
+              <span className="col-3">
                 CSS
                 <FaCss3Alt />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="netlify col-3">
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">
@@ -374,20 +378,20 @@ const Samples = () => {
                 Sa3dola <br />
                 Mini Blog for the Egyptian Stramer
               </h5>
-              <span className="react col-3">
+              <span className="col-3">
                 React <FaReact />
               </span>
-              <span className="JavaScript col-3">
+              <span className="col-3">
                 JavaScript <SiJavascript />
               </span>
-              <span className="css col-3">
+              <span className="col-3">
                 CSS
                 <FaCss3Alt />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="netlify col-3">
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">
@@ -429,20 +433,20 @@ const Samples = () => {
                 <br />
                 Marketing page for a Commercial Gym
               </h5>
-              <span className="react col-3">
+              <span className="col-3">
                 React <FaReact />
               </span>
-              <span className="JavaScript col-3">
+              <span className="col-3">
                 JavaScript <SiJavascript />
               </span>
-              <span className="css col-3">
+              <span className="col-3">
                 CSS
                 <FaCss3Alt />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="netlify col-3">
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">
@@ -483,17 +487,17 @@ const Samples = () => {
                 Husrt <br />
                 Basic Landing Page for a Furniture Shop
               </h5>
-              <span className="html col-3">
+              <span className="col-3">
                 HTML <FaHtml5 />
               </span>
-              <span className="css col-3">
+              <span className="col-3">
                 CSS
                 <FaCss3Alt />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="netlify col-3">
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">
@@ -534,17 +538,17 @@ const Samples = () => {
                 Fixera <br />
                 Landing Page for Tech-Store
               </h5>
-              <span className="html col-3">
+              <span className="col-3">
                 HTML <FaHtml5 />
               </span>
-              <span className="css col-3">
+              <span className="col-3">
                 CSS
                 <FaCss3Alt />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="netlify col-3">
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">
@@ -585,17 +589,17 @@ const Samples = () => {
                 Confer <br />
                 Landing Page for a Conferences Page
               </h5>
-              <span className="html col-3">
+              <span className="col-3">
                 HTML <FaHtml5 />
               </span>
-              <span className="css col-3">
+              <span className="col-3">
                 CSS
                 <FaCss3Alt />
               </span>
-              <span className="bootstrap col-3">
+              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
-              <span className="netlify col-3">
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">

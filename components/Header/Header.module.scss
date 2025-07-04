@@ -29,12 +29,13 @@
         border-radius: 20px;
 
         a {
+          display: flex;
+          text-align: center;
+          align-content: baseline;
           text-decoration: none;
-          display: inline;
           padding: 5px;
           border-radius: 20px;
           font-weight: bolder;
-          align-content: baseline;
         }
       }
 

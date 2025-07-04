@@ -64,6 +64,16 @@ section {
   margin: 0 !important;
 
   .content {
+    span {
+      padding: 5px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      color: #fff;
+    }
+
     .toWebApp {
       padding: 5px 10px;
       border: 1px solid rgba(255, 255, 255, 0.2);
@@ -88,7 +98,6 @@ span {
   text-align: center;
   border-radius: 5px;
   font-size: 0.625rem;
-  font-weight: bolder;
 
   svg {
     margin: 0px 5px;
