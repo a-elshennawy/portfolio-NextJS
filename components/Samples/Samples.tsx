@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 import styles from "./Samples.module.scss";
 import { FaBootstrap, FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
 import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
-import { SiJavascript, SiNetlify } from "react-icons/si";
+import { SiClerk, SiJavascript, SiNetlify } from "react-icons/si";
 
 const Samples = () => {
   const { ref } = useInView({
@@ -339,17 +339,6 @@ const Samples = () => {
               </div>
             </div>
           </motion.div>
-
-          <motion.h3
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: false, amount: 0.3 }}
-            className="col-10 py-3"
-          >
-            - Landing Pages / Signle Page Apps -
-          </motion.h3>
-
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -376,7 +365,7 @@ const Samples = () => {
             <div className="content row justify-content-center align-items-center gap-1 col-12">
               <h5 className="col-12 py-2">
                 Sa3dola <br />
-                Mini Blog for the Egyptian Stramer
+                Mini Blog for the Egyptian Stramer with a chat room for fans
               </h5>
               <span className="col-3">
                 React <FaReact />
@@ -392,6 +381,14 @@ const Samples = () => {
                 Bootstrap <FaBootstrap />
               </span>
               <span className="col-3">
+                Firebase
+                <IoLogoFirebase />
+              </span>
+              <span className="col-3">
+                Clerk Authentication
+                <SiClerk />
+              </span>
+              <span className="col-3">
                 Netlify <SiNetlify />
               </span>
               <div className="col-12 py-1">
@@ -403,6 +400,16 @@ const Samples = () => {
               </div>
             </div>
           </motion.div>
+
+          <motion.h3
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
+            className="col-10 py-3"
+          >
+            - Landing Pages / Signle Page Apps -
+          </motion.h3>
 
           <motion.div
             initial={{ y: 100, opacity: 0 }}
