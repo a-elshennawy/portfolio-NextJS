@@ -133,6 +133,68 @@ const Samples = () => {
           </motion.div>
 
           <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
+            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+          >
+            <div
+              className="img col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
+                src="/images/sa3dola.webp"
+                alt="project preview"
+                fill
+                loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
+              />
+            </div>
+            <div className="content row justify-content-center align-items-center gap-1 col-12">
+              <h5 className="col-12 py-2">
+                Sa3dola <br />
+                Mini Blog for the Egyptian Stramer with a chat room for fans
+              </h5>
+              <span className="col-3">
+                React <FaReact />
+              </span>
+              <span className="col-3">
+                JavaScript <SiJavascript />
+              </span>
+              <span className="col-3">
+                CSS
+                <FaCss3Alt />
+              </span>
+              <span className="col-3">
+                Bootstrap <FaBootstrap />
+              </span>
+              <span className="col-3">
+                Firebase
+                <IoLogoFirebase />
+              </span>
+              <span className="col-3">
+                Clerk
+                <SiClerk />
+              </span>
+              <span className="col-3">
+                Netlify <SiNetlify />
+              </span>
+              <div className="col-12 py-1">
+                <button className="toWebApp">
+                  <a href="https://sa3dola.netlify.app/" target="_blank">
+                    live perview
+                  </a>
+                </button>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
@@ -334,67 +396,6 @@ const Samples = () => {
                 <button className="toWebApp">
                   <a href="https://fitguide-test.netlify.app/" target="_blank">
                     live perview (Demo)
-                  </a>
-                </button>
-              </div>
-            </div>
-          </motion.div>
-          <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
-          >
-            <div
-              className="img col-12"
-              style={{
-                position: "relative",
-                width: "100%",
-                aspectRatio: "16/9",
-              }}
-            >
-              <Image
-                src="/images/sa3dola.webp"
-                alt="project preview"
-                fill
-                loading="lazy"
-                style={{ objectFit: "cover", borderRadius: "12px" }}
-              />
-            </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
-                Sa3dola <br />
-                Mini Blog for the Egyptian Stramer with a chat room for fans
-              </h5>
-              <span className="col-3">
-                React <FaReact />
-              </span>
-              <span className="col-3">
-                JavaScript <SiJavascript />
-              </span>
-              <span className="col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Firebase
-                <IoLogoFirebase />
-              </span>
-              <span className="col-3">
-                Clerk Authentication
-                <SiClerk />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
-              <div className="col-12 py-1">
-                <button className="toWebApp">
-                  <a href="https://sa3dola.netlify.app/" target="_blank">
-                    live perview
                   </a>
                 </button>
               </div>
