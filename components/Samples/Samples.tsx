@@ -133,7 +133,7 @@ const Samples = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
+            initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -167,10 +167,6 @@ const Samples = () => {
                 JavaScript <SiJavascript />
               </span>
               <span className="col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="col-3">
                 Bootstrap <FaBootstrap />
               </span>
               <span className="col-3">
@@ -195,7 +191,7 @@ const Samples = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -245,8 +241,8 @@ const Samples = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
@@ -295,8 +291,8 @@ const Samples = () => {
           </motion.div>
 
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
@@ -349,8 +345,8 @@ const Samples = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
@@ -413,8 +409,8 @@ const Samples = () => {
           </motion.h3>
 
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
@@ -468,8 +464,8 @@ const Samples = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
@@ -519,7 +515,7 @@ const Samples = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
+            initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -570,8 +566,8 @@ const Samples = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"

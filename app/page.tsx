@@ -2,9 +2,10 @@
 import { useEffect } from "react";
 import Header from "@/components/Header/Header";
 import About from "@/components/About/About";
-import Samples from "../components/Samples/Samples";
+import Samples from "@/components/Samples/Samples";
 import CommBar from "@/components/CommBar/CommBar";
 import UpBtn from "@/components/UpBtn";
+import ScrollBar from "@/components/ScrollBar/ScrollBar";
 
 export default function Home() {
   useEffect(() => {
@@ -15,6 +16,7 @@ export default function Home() {
   }, []);
   return (
     <>
+      <ScrollBar />
       <CommBar />
       <Header />
       <About />

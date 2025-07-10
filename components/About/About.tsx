@@ -9,7 +9,7 @@ import {
   FaHtml5,
   FaReact,
 } from "react-icons/fa";
-import { SiJavascript, SiNetlify, SiTypescript } from "react-icons/si";
+import { SiJavascript, SiNetlify } from "react-icons/si";
 import { BsFiletypeScss } from "react-icons/bs";
 import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
 import { FaBoltLightning, FaMobileScreen } from "react-icons/fa6";
@@ -66,10 +66,7 @@ const About = () => {
                 JavaScript
                 <SiJavascript />
               </span>
-              <span className="TypeScript col-lg-2 col-3">
-                TypeScript
-                <SiTypescript />
-              </span>
+
               <span className="html col-lg-2 col-3">
                 HTML
                 <FaHtml5 />

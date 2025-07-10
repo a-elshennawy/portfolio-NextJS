@@ -175,12 +175,6 @@ span {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
 @media screen and (max-width: 992px) {
   :root {
     font-size: 14px;
@@ -200,4 +194,13 @@ span {
     transform: translateY(0);
     filter: drop-shadow(0 0 0px #fff);
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

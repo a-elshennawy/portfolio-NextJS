@@ -1,0 +1,22 @@
+.scrollBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 3px;
+  border-radius: 5px;
+  height: 0px;
+  background-image: linear-gradient(#000, #fff);
+  z-index: 111;
+  animation: progressBar linear forwards;
+  animation-timeline: scroll();
+}
+
+@keyframes progressBar {
+  0% {
+    height: 0px;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
