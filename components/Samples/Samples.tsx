@@ -19,7 +19,7 @@ const Samples = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="col-10 py-3"
           >
             Full Web Apps
@@ -29,7 +29,7 @@ const Samples = () => {
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -87,7 +87,7 @@ const Samples = () => {
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -136,7 +136,7 @@ const Samples = () => {
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -194,7 +194,7 @@ const Samples = () => {
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -244,7 +244,7 @@ const Samples = () => {
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -294,7 +294,7 @@ const Samples = () => {
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -348,7 +348,7 @@ const Samples = () => {
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -402,7 +402,7 @@ const Samples = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="col-10 py-3"
           >
             Landing Pages / Signle Page Apps
@@ -412,7 +412,7 @@ const Samples = () => {
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -467,7 +467,7 @@ const Samples = () => {
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -518,7 +518,7 @@ const Samples = () => {
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
@@ -569,7 +569,7 @@ const Samples = () => {
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
           >
             <div
