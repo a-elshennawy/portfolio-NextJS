@@ -22,7 +22,7 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="col-10 py-3"
           >
-            - Full Web Apps -
+            Full Web Apps
           </motion.h3>
 
           <motion.div
@@ -405,7 +405,7 @@ const Samples = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="col-10 py-3"
           >
-            - Landing Pages / Signle Page Apps -
+            Landing Pages / Signle Page Apps
           </motion.h3>
 
           <motion.div
