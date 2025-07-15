@@ -1,3 +1,5 @@
+import NavBar from "@/components/NavBar/NavBar";
+import ScrollBar from "@/components/ScrollBar/ScrollBar";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import type { Metadata } from "next";
@@ -18,8 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head />
-      <body style={{ fontFamily: "regular, sans-serif" }}>{children}</body>
+      <body>
+        <NavBar />
+        {children}
+        <ScrollBar />
+      </body>
     </html>
   );
 }

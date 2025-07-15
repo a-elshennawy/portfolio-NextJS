@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import styles from "./About.module.scss";
@@ -50,6 +51,7 @@ const About = () => {
               sloppy survives.
             </p>
           </motion.div>
+
           <motion.div
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -101,6 +103,17 @@ const About = () => {
               </span>
             </div>
           </motion.div>
+
+          <motion.h3
+            className={`${styles.textBtwn}`}
+            initial={{ opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, delay: 0.2 }}
+            viewport={{ once: false, amount: 0.3 }}
+          >
+            My Approach
+          </motion.h3>
+
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -116,6 +129,7 @@ const About = () => {
               fast, then refining with precision.
             </p>
           </motion.div>
+
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -131,6 +145,7 @@ const About = () => {
               spacing, and visual clarity.
             </p>
           </motion.div>
+
           <motion.div
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -146,6 +161,7 @@ const About = () => {
               smooth, natural, and touch-friendly.
             </p>
           </motion.div>
+
           <motion.div
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}

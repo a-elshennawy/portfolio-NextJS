@@ -1,12 +1,13 @@
+"use client";
 import Image from "next/image";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
-import styles from "./Samples.module.scss";
+import styles from "./Projects.module.scss";
 import { FaBootstrap, FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
-import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
+import { IoLogoFirebase } from "react-icons/io5";
 import { SiClerk, SiJavascript, SiNetlify } from "react-icons/si";
 
-const Samples = () => {
+const Projects = () => {
   const { ref } = useInView({
     threshold: 0.3,
     triggerOnce: true,
@@ -15,16 +16,6 @@ const Samples = () => {
     <>
       <section ref={ref} id="work" className={`${styles.work}`}>
         <div className="row justify-content-center align-items-center m-0 gap-2 ">
-          <motion.h3
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: false, amount: 0.3 }}
-            className="col-10 py-3"
-          >
-            Full Web Apps
-          </motion.h3>
-
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -306,60 +297,6 @@ const Samples = () => {
               }}
             >
               <Image
-                src="/images/gym.webp"
-                alt="project preview"
-                fill
-                loading="lazy"
-                style={{ objectFit: "cover", borderRadius: "12px" }}
-              />
-            </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
-                Gladiator Gym <br />
-                Basic template for Commercial Gym
-              </h5>
-              <span className="col-3">
-                HTML <FaHtml5 />
-              </span>
-              <span className="col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Vercel <IoLogoVercel />
-              </span>
-              <div className="col-12 py-1">
-                <button className="toWebApp">
-                  <a
-                    href="https://gladiator-gym-psi.vercel.app/"
-                    target="_blank"
-                  >
-                    live perview (Demo)
-                  </a>
-                </button>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
-          >
-            <div
-              className="img col-12"
-              style={{
-                position: "relative",
-                width: "100%",
-                aspectRatio: "16/9",
-              }}
-            >
-              <Image
                 src="/images/fitguid.webp"
                 alt="project preview"
                 fill
@@ -397,16 +334,6 @@ const Samples = () => {
               </div>
             </div>
           </motion.div>
-
-          <motion.h3
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: false, amount: 0.3 }}
-            className="col-10 py-3"
-          >
-            Landing Pages / Signle Page Apps
-          </motion.h3>
 
           <motion.div
             initial={{ x: -100, opacity: 0 }}
@@ -621,4 +548,4 @@ const Samples = () => {
   );
 };
 
-export default Samples;
+export default Projects;
