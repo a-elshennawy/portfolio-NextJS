@@ -14,7 +14,7 @@ const Projects = () => {
   });
   return (
     <>
-      <section ref={ref} id="work" className={`${styles.work}`}>
+      <section ref={ref} id="projects" className={`${styles.work}`}>
         <div className="row justify-content-center align-items-center m-0 gap-2 ">
           <motion.div
             initial={{ x: -100, opacity: 0 }}

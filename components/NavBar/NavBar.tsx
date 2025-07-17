@@ -2,15 +2,30 @@
 import styles from "./NavBar.module.scss";
 import { motion } from "motion/react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-const NavBar = () => {
-  const currentPath = usePathname();
+import { useEffect, useState } from "react";
 
-  const navItems = [
-    { path: "/", text: "Contacts" },
-    { path: "/About", text: "About" },
-    { path: "/Projects", text: "Projects" },
-  ];
+const NavBar = () => {
+  const [activeSection, setActiveSection] = useState("");
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["contact", "about", "projects"];
+      for (const section of sections) {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top <= 100 && rect.bottom >= 100) {
+            setActiveSection(section);
+            break;
+          }
+        }
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <div
@@ -28,16 +43,27 @@ const NavBar = () => {
           transition={{ duration: 2, ease: "easeInOut" }}
           className={`${styles.FloatingNavContainer} row`}
         >
-          {navItems.map((navItem) => (
-            <div
-              key={navItem.path}
-              className={`col-4 ${styles.navItem} ${
-                currentPath === navItem.path ? `${styles.selected}` : ""
-              }`}
-            >
-              <Link href={navItem.path}>{navItem.text}</Link>
-            </div>
-          ))}
+          <div
+            className={`col-4 ${styles.navItem} ${
+              activeSection === "contact" ? styles.selected : ""
+            }`}
+          >
+            <Link href={"#contact"}>Contact</Link>
+          </div>
+          <div
+            className={`col-4 ${styles.navItem} ${
+              activeSection === "about" ? styles.selected : ""
+            }`}
+          >
+            <Link href={"#about"}>About</Link>
+          </div>
+          <div
+            className={`col-4 ${styles.navItem} ${
+              activeSection === "projects" ? styles.selected : ""
+            }`}
+          >
+            <Link href={"#projects"}>Projects</Link>
+          </div>
         </motion.div>
       </div>
     </>
