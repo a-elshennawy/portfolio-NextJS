@@ -21,10 +21,10 @@ const Projects = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -39,7 +39,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 El-Sokarya <br />
                 Fullstack Oriented Front-End WebApp for a Watches Shop
@@ -63,7 +65,7 @@ const Projects = () => {
               </div>
 
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://elsokarya.net/" target="_blank">
                     live perview
                   </a>
@@ -77,10 +79,10 @@ const Projects = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -95,7 +97,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 React Project for a resturant / Cafe
               </h5>
@@ -115,7 +119,7 @@ const Projects = () => {
               </div>
 
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://butter-react.netlify.app/" target="_blank">
                     live perview (Demo)
                   </a>
@@ -129,10 +133,10 @@ const Projects = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -147,7 +151,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 Sa3dola <br />
                 Mini Blog for the Egyptian Stramer with a chat room for fans
@@ -173,7 +179,7 @@ const Projects = () => {
                 </span>
               </div>
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://sa3dola.netlify.app/" target="_blank">
                     live perview
                   </a>
@@ -187,10 +193,10 @@ const Projects = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -205,7 +211,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 Islamic App <br />
                 (Date / Weather / Prayers / Quran / Azkar)
@@ -226,7 +234,7 @@ const Projects = () => {
               </div>
 
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://dailyguide.netlify.app/" target="_blank">
                     live perview
                   </a>
@@ -240,10 +248,10 @@ const Projects = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -258,7 +266,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 sshop <br />
                 an E-Commerce Template
@@ -278,7 +288,7 @@ const Projects = () => {
                 </span>
               </div>
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://e-sshop.netlify.app/" target="_blank">
                     live perview (Demo)
                   </a>
@@ -292,10 +302,10 @@ const Projects = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -310,7 +320,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 FitGuide <br />
                 Rescue Mission for a Graduation Project
@@ -334,7 +346,7 @@ const Projects = () => {
               </div>
 
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://fitguide-test.netlify.app/" target="_blank">
                     live perview (Demo)
                   </a>
@@ -348,10 +360,10 @@ const Projects = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -366,7 +378,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 Gladiator Gym
                 <br />
@@ -390,7 +404,7 @@ const Projects = () => {
                 </span>
               </div>
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://gladiator-gym.netlify.app/" target="_blank">
                     live perview
                   </a>
@@ -404,10 +418,10 @@ const Projects = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -422,7 +436,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 Husrt <br />
                 Basic Landing Page for a Furniture Shop
@@ -442,7 +458,7 @@ const Projects = () => {
                 </span>
               </div>
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://hurstf.netlify.app/" target="_blank">
                     live perview
                   </a>
@@ -456,10 +472,10 @@ const Projects = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -474,7 +490,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 Fixera <br />
                 Landing Page for Tech-Store
@@ -494,7 +512,7 @@ const Projects = () => {
                 </span>
               </div>
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://fixera.netlify.app/" target="_blank">
                     live perview
                   </a>
@@ -508,10 +526,10 @@ const Projects = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
-            className="row justify-content-center align-items-center col-lg-3 col-10 glassmorphism projectCard"
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
           >
             <div
-              className="img col-12"
+              className="col-12"
               style={{
                 position: "relative",
                 width: "100%",
@@ -526,7 +544,9 @@ const Projects = () => {
                 style={{ objectFit: "cover", borderRadius: "12px" }}
               />
             </div>
-            <div className="content row justify-content-center align-items-center gap-1 col-12">
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
               <h5 className="col-12 py-2 m-0">
                 Confer <br />
                 Landing Page for a Conferences Page
@@ -546,7 +566,7 @@ const Projects = () => {
                 </span>
               </div>
               <div className="col-12 py-1">
-                <button className="toWebApp">
+                <button className={`${styles.toWebApp}`}>
                   <a href="https://confertest.netlify.app/" target="_blank">
                     live perview
                   </a>

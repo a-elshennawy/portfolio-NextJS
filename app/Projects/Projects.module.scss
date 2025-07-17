@@ -6,10 +6,28 @@
   color: #fff;
   text-align: center;
 
-  .toWebApp {
-    padding: 10px 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+  .projectCard {
+    margin: 0 !important;
+
+    .content {
+      span {
+        display: inline-flex;
+        padding: 0px 5px;
+      }
+      .toWebApp {
+        padding: 5px 10px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #fff;
+          letter-spacing: 1px;
+        }
+      }
+    }
   }
 }
