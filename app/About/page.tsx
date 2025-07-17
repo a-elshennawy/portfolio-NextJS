@@ -56,6 +56,7 @@ const About = () => {
 
           <motion.h3
             initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
             viewport={{ once: false, amount: 0.3 }}
             className="my-3 col-10"
@@ -65,6 +66,7 @@ const About = () => {
 
           <motion.div
             initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`${styles.techStack} col-10`}
