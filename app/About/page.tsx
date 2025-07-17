@@ -4,13 +4,15 @@ import { useInView } from "react-intersection-observer";
 import styles from "./About.module.scss";
 import {
   FaBootstrap,
+  FaCloudflare,
   FaCss3Alt,
   FaGitAlt,
+  FaGithub,
   FaHandsHelping,
   FaHtml5,
   FaReact,
 } from "react-icons/fa";
-import { SiJavascript, SiNetlify } from "react-icons/si";
+import { SiClerk, SiJavascript, SiNetlify } from "react-icons/si";
 import { BsFiletypeScss } from "react-icons/bs";
 import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
 import { FaBoltLightning, FaMobileScreen } from "react-icons/fa6";
@@ -50,58 +52,6 @@ const About = () => {
               I treat every UI like it&apos;s a final boss fight — nothing
               sloppy survives.
             </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: false, amount: 0.3 }}
-            className="col-lg-5 col-10 glassmorphism"
-          >
-            <h3 className="py-1">Tech Stack</h3>
-            <div className="row w-100 justify-content-center align-items-center gap-1">
-              <span className="react col-lg-2 col-3">
-                React <FaReact />
-              </span>
-              <span className="JavaScript col-lg-2 col-3">
-                JavaScript
-                <SiJavascript />
-              </span>
-
-              <span className="html col-lg-2 col-3">
-                HTML
-                <FaHtml5 />
-              </span>
-              <span className="css col-lg-2 col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="bootstrap col-lg-2 col-3">
-                Bootstrap
-                <FaBootstrap />
-              </span>
-              <span className="scss col-lg-2 col-3">
-                SCSS
-                <BsFiletypeScss />
-              </span>
-              <span className="git col-lg-2 col-3">
-                Git
-                <FaGitAlt />
-              </span>
-              <span className="firebase col-lg-2 col-3">
-                Firebase
-                <IoLogoFirebase />
-              </span>
-              <span className="vercel col-lg-2 col-3">
-                Vercel
-                <IoLogoVercel />
-              </span>
-              <span className="netlify col-lg-2 col-3">
-                Netlify
-                <SiNetlify />
-              </span>
-            </div>
           </motion.div>
 
           <motion.h3

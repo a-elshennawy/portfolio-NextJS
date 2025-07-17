@@ -2,9 +2,23 @@
 import { useEffect } from "react";
 import { motion } from "motion/react";
 import styles from "./Home.module.scss";
-import { FaDiscord, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import {
+  FaBootstrap,
+  FaCloudflare,
+  FaCss3Alt,
+  FaDiscord,
+  FaGit,
+  FaGithub,
+  FaHtml5,
+  FaLinkedin,
+  FaReact,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { MdOutlineAlternateEmail } from "react-icons/md";
+import { SiClerk, SiJavascript, SiNetlify } from "react-icons/si";
+import { BsFiletypeScss } from "react-icons/bs";
+import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
 
 export default function Home() {
   useEffect(() => {
@@ -40,6 +54,7 @@ export default function Home() {
           >
             Function meets finesse.
           </motion.h1>
+
           <motion.h6
             style={{ overflow: "hidden", whiteSpace: "nowrap" }}
             initial={{ width: 0 }}
@@ -50,9 +65,9 @@ export default function Home() {
           </motion.h6>
 
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 2, ease: "easeInOut" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2, delay: 2 }}
             className={`${styles.socials} row`}
           >
             <div className={`${styles.socialItem} ${styles.whatsapp} col-2`}>
@@ -111,6 +126,62 @@ export default function Home() {
                 <MdOutlineAlternateEmail />
               </a>
             </div>
+          </motion.div>
+
+          <motion.h5
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2, delay: 2.5 }}
+            className="m-0 mt-2"
+          >
+            My Stack
+          </motion.h5>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 3, delay: 3 }}
+            className={styles.techStack}
+          >
+            <span className={styles.react}>
+              <FaReact />
+            </span>
+            <span className={styles.JavaScript}>
+              <SiJavascript />
+            </span>
+            <span className={styles.html}>
+              <FaHtml5 />
+            </span>
+            <span className={styles.css}>
+              <FaCss3Alt />
+            </span>
+            <span className={styles.bootstrap}>
+              <FaBootstrap />
+            </span>
+            <span className={styles.scss}>
+              <BsFiletypeScss />
+            </span>
+            <span className={styles.git}>
+              <FaGit />
+            </span>
+            <span className={styles.itHub}>
+              <FaGithub />
+            </span>
+            <span className={styles.firebase}>
+              <IoLogoFirebase />
+            </span>
+            <span className={styles.clerk}>
+              <SiClerk />
+            </span>
+            <span className={styles.cloudflare}>
+              <FaCloudflare />
+            </span>
+            <span className={styles.vercel}>
+              <IoLogoVercel />
+            </span>
+            <span className={styles.netlify}>
+              <SiNetlify />
+            </span>
           </motion.div>
         </div>
       </section>
