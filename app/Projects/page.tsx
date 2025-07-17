@@ -40,30 +40,28 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 El-Sokarya <br />
                 Fullstack Oriented Front-End WebApp for a Watches Shop
               </h5>
-              <span className="col-3">
-                React
-                <FaReact />
-              </span>
-              <span className="col-3">
-                JavaScript
-                <SiJavascript />
-              </span>
-              <span className="col-3">
-                Firebase
-                <IoLogoFirebase />
-              </span>
-              <span className="col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="col-3">
-                Bootstrap
-                <FaBootstrap />
-              </span>
+              <div className="col-12">
+                <span className="react">
+                  <FaReact />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
+                <span className="firebase">
+                  <IoLogoFirebase />
+                </span>
+                <span className="css">
+                  <FaCss3Alt />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+              </div>
+
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://elsokarya.net/" target="_blank">
@@ -98,21 +96,24 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 React Project for a resturant / Cafe
               </h5>
-              <span className="col-3">
-                React <FaReact />
-              </span>
-              <span className="col-3">
-                JavaScript <SiJavascript />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
+              <div className="col-12">
+                <span className="react">
+                  <FaReact />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="netlify">
+                  <SiNetlify />
+                </span>
+              </div>
+
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://butter-react.netlify.app/" target="_blank">
@@ -147,30 +148,30 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 Sa3dola <br />
                 Mini Blog for the Egyptian Stramer with a chat room for fans
               </h5>
-              <span className="col-3">
-                React <FaReact />
-              </span>
-              <span className="col-3">
-                JavaScript <SiJavascript />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Firebase
-                <IoLogoFirebase />
-              </span>
-              <span className="col-3">
-                Clerk
-                <SiClerk />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
+              <div className="col-12">
+                <span className="react">
+                  <FaReact />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="firebase">
+                  <IoLogoFirebase />
+                </span>
+                <span className="clerk">
+                  <SiClerk />
+                </span>
+                <span className="netlify">
+                  <SiNetlify />
+                </span>
+              </div>
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://sa3dola.netlify.app/" target="_blank">
@@ -205,22 +206,25 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 Islamic App <br />
                 (Date / Weather / Prayers / Quran / Azkar)
               </h5>
-              <span className="col-3">
-                HTML <FaHtml5 />
-              </span>
-              <span className="col-3">
-                JavaScript <SiJavascript />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
+              <div className="col-12">
+                <span className="html">
+                  <FaHtml5 />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="netlify">
+                  <SiNetlify />
+                </span>
+              </div>
+
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://dailyguide.netlify.app/" target="_blank">
@@ -255,22 +259,24 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 sshop <br />
                 an E-Commerce Template
               </h5>
-              <span className="col-3">
-                HTML <FaHtml5 />
-              </span>
-              <span className="col-3">
-                JavaScript <SiJavascript />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
+              <div className="col-12">
+                <span className="html">
+                  <FaHtml5 />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="netlify">
+                  <SiNetlify />
+                </span>
+              </div>
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://e-sshop.netlify.app/" target="_blank">
@@ -305,26 +311,28 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 FitGuide <br />
                 Rescue Mission for a Graduation Project
               </h5>
-              <span className="col-3">
-                Raact <FaReact />
-              </span>
-              <span className="col-3">
-                JavaScript <SiJavascript />
-              </span>
-              <span className="col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
+              <div className="col-12">
+                <span className="react">
+                  <FaReact />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
+                <span className="css">
+                  <FaCss3Alt />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="netlify">
+                  <SiNetlify />
+                </span>
+              </div>
+
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://fitguide-test.netlify.app/" target="_blank">
@@ -359,27 +367,28 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 Gladiator Gym
                 <br />
                 Marketing page for a Commercial Gym
               </h5>
-              <span className="col-3">
-                React <FaReact />
-              </span>
-              <span className="col-3">
-                JavaScript <SiJavascript />
-              </span>
-              <span className="col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
+              <div className="col-12">
+                <span className="react">
+                  <FaReact />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
+                <span className="css">
+                  <FaCss3Alt />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="netlify">
+                  <SiNetlify />
+                </span>
+              </div>
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://gladiator-gym.netlify.app/" target="_blank">
@@ -414,23 +423,24 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 Husrt <br />
                 Basic Landing Page for a Furniture Shop
               </h5>
-              <span className="col-3">
-                HTML <FaHtml5 />
-              </span>
-              <span className="col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
+              <div className="col-12">
+                <span className="html">
+                  <FaHtml5 />
+                </span>
+                <span className="css">
+                  <FaCss3Alt />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="netlify">
+                  <SiNetlify />
+                </span>
+              </div>
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://hurstf.netlify.app/" target="_blank">
@@ -465,23 +475,24 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 Fixera <br />
                 Landing Page for Tech-Store
               </h5>
-              <span className="col-3">
-                HTML <FaHtml5 />
-              </span>
-              <span className="col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
+              <div className="col-12">
+                <span className="html">
+                  <FaHtml5 />
+                </span>
+                <span className="css">
+                  <FaCss3Alt />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="netlify">
+                  <SiNetlify />
+                </span>
+              </div>
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://fixera.netlify.app/" target="_blank">
@@ -516,23 +527,24 @@ const Projects = () => {
               />
             </div>
             <div className="content row justify-content-center align-items-center gap-1 col-12">
-              <h5 className="col-12 py-2">
+              <h5 className="col-12 py-2 m-0">
                 Confer <br />
                 Landing Page for a Conferences Page
               </h5>
-              <span className="col-3">
-                HTML <FaHtml5 />
-              </span>
-              <span className="col-3">
-                CSS
-                <FaCss3Alt />
-              </span>
-              <span className="col-3">
-                Bootstrap <FaBootstrap />
-              </span>
-              <span className="col-3">
-                Netlify <SiNetlify />
-              </span>
+              <div className="col-12">
+                <span className="html">
+                  <FaHtml5 />
+                </span>
+                <span className="css">
+                  <FaCss3Alt />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="netlify">
+                  <SiNetlify />
+                </span>
+              </div>
               <div className="col-12 py-1">
                 <button className="toWebApp">
                   <a href="https://confertest.netlify.app/" target="_blank">

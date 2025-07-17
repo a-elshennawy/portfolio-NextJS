@@ -64,18 +64,8 @@ section {
 
   .content {
     span {
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-      border-radius: 5px;
-      font-size: 0.625rem;
+      padding: 0px 5px;
     }
-
     .toWebApp {
       padding: 5px 10px;
       border: 1px solid rgba(255, 255, 255, 0.2);
@@ -117,6 +107,46 @@ section {
   svg {
     animation: upbtn 1s infinite;
   }
+}
+
+.react {
+  color: #3978ff !important;
+}
+.JavaScript {
+  color: #fffb00 !important;
+}
+.html {
+  color: #ff9d1e !important;
+}
+.css {
+  color: #0084ff !important;
+}
+.bootstrap {
+  color: #a200ff !important;
+}
+.scss {
+  color: #cb47ff !important;
+}
+.git {
+  color: #fd0000 !important;
+}
+.gitHub {
+  color: #fff !important;
+}
+.clerk {
+  color: #fff !important;
+}
+.firebase {
+  color: #ecad00 !important;
+}
+.cloudflare {
+  color: #ff7b00 !important;
+}
+.vercel {
+  color: #fff !important;
+}
+.netlify {
+  color: #168600 !important;
 }
 
 @media screen and (max-width: 992px) {
