@@ -6,7 +6,7 @@ import {
   FaBootstrap,
   FaCloudflare,
   FaCss3Alt,
-  FaGitAlt,
+  FaGit,
   FaGithub,
   FaHandsHelping,
   FaHtml5,
@@ -55,11 +55,67 @@ const About = () => {
           </motion.div>
 
           <motion.h3
-            className={`${styles.textBtwn}`}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 1 }}
+            className="my-3 col-10"
+          >
+            My Stack
+          </motion.h3>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 2 }}
+            className={`${styles.techStack} col-10`}
+          >
+            <span className={styles.react}>
+              <FaReact />
+            </span>
+            <span className={styles.JavaScript}>
+              <SiJavascript />
+            </span>
+            <span className={styles.html}>
+              <FaHtml5 />
+            </span>
+            <span className={styles.css}>
+              <FaCss3Alt />
+            </span>
+            <span className={styles.bootstrap}>
+              <FaBootstrap />
+            </span>
+            <span className={styles.scss}>
+              <BsFiletypeScss />
+            </span>
+            <span className={styles.git}>
+              <FaGit />
+            </span>
+            <span className={styles.itHub}>
+              <FaGithub />
+            </span>
+            <span className={styles.firebase}>
+              <IoLogoFirebase />
+            </span>
+            <span className={styles.clerk}>
+              <SiClerk />
+            </span>
+            <span className={styles.cloudflare}>
+              <FaCloudflare />
+            </span>
+            <span className={styles.vercel}>
+              <IoLogoVercel />
+            </span>
+            <span className={styles.netlify}>
+              <SiNetlify />
+            </span>
+          </motion.div>
+
+          <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
             viewport={{ once: false, amount: 0.3 }}
+            className="my-3 col-10"
           >
             My Approach
           </motion.h3>
