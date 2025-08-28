@@ -108,7 +108,8 @@ const Projects = () => {
             >
               <h5 className="col-12 py-2 m-0">
                 Socially <br />
-                an anonymous social app
+                an anonymous social app <br />
+                (Full-Stack Oriented)
               </h5>
               <div className="col-12">
                 <span className="react">
@@ -139,6 +140,64 @@ const Projects = () => {
 
           <motion.div
             initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
+          >
+            <div
+              className="col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
+                src="/images/clarityTasks.webp"
+                alt="project preview"
+                fill
+                loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
+              />
+            </div>
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
+              <h5 className="col-12 py-2 m-0">
+                Clarity tasks <br />
+                task manager / login / get tasks done <br />
+                (Full-Stack Oriented)
+              </h5>
+              <div className="col-12">
+                <span className="react">
+                  <FaReact />
+                </span>
+                <span className="firebase">
+                  <IoLogoFirebase />
+                </span>
+                <span className="css">
+                  <FaCss3Alt />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="cloudflare">
+                  <FaCloudflare />
+                </span>
+              </div>
+              <div className="col-12 py-1">
+                <button className={`${styles.toWebApp}`}>
+                  <a href="https://clarity-tasks.pages.dev/" target="_blank">
+                    live perview
+                  </a>
+                </button>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -192,8 +251,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -220,6 +279,8 @@ const Projects = () => {
               <h5 className="col-12 py-2 m-0">
                 Sa3dola <br />
                 Mini Blog for the Egyptian Stramer with a chat room for fans
+                <br />
+                (Full-Stack Oriented)
               </h5>
               <div className="col-12">
                 <span className="react">
@@ -252,8 +313,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -307,7 +368,7 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -361,8 +422,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -419,8 +480,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -477,7 +538,7 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -531,8 +592,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}

@@ -39,7 +39,11 @@ const Hero = () => {
             animate={{ width: "100%" }}
             transition={{ duration: 2, ease: "easeInOut" }}
           >
-            Ahmed ElShennawy. React nerd. Pixel perfectionist.
+            <i>
+              Ahmed ElShennawy. React nerd. Pixel perfectionist.
+              <br />
+              "Full-Stack Oriented Front-end Dev."
+            </i>
           </motion.h6>
 
           <motion.div
