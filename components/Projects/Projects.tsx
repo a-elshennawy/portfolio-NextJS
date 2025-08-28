@@ -166,7 +166,7 @@ const Projects = () => {
             >
               <h5 className="col-12 py-2 m-0">
                 Clarity tasks <br />
-                task manager / login / get tasks done <br />
+                task manager / login / tasks done <br />
                 (Full-Stack Oriented)
               </h5>
               <div className="col-12">
