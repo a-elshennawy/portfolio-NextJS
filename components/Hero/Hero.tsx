@@ -42,7 +42,7 @@ const Hero = () => {
             <i>
               Ahmed ElShennawy. React nerd. Pixel perfectionist.
               <br />
-              <em>Full-Stack Oriented Front-end Dev.</em>
+              <q>Full-Stack Oriented Front-end Dev.</q>
             </i>
           </motion.h6>
 
