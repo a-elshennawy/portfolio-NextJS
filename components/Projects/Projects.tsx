@@ -383,7 +383,7 @@ const Projects = () => {
               }}
             >
               <Image
-                src="/images/sshop.webp"
+                src="/images/fixyland.webp"
                 alt="project preview"
                 fill
                 loading="lazy"
