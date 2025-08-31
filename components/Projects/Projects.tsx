@@ -410,7 +410,7 @@ const Projects = () => {
               </div>
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
-                  <a href="https://e-sshop.netlify.app/" target="_blank">
+                  <a href="https://fixyland.pages.dev/" target="_blank">
                     live perview (Demo)
                   </a>
                 </button>
