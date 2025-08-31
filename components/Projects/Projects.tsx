@@ -394,15 +394,12 @@ const Projects = () => {
               className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
             >
               <h5 className="col-12 py-2 m-0">
-                sshop <br />
-                an E-Commerce Template
+                Fixyland <br />
+                an Hotel Reservation Template
               </h5>
               <div className="col-12">
-                <span className="html">
-                  <FaHtml5 />
-                </span>
-                <span className="JavaScript">
-                  <SiJavascript />
+                <span className="react">
+                  <FaReact />
                 </span>
                 <span className="bootstrap">
                   <FaBootstrap />
