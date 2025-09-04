@@ -340,9 +340,15 @@ const Projects = () => {
             >
               <h5 className="col-12 py-2 m-0">
                 Islamic App <br />
-                (Date / Weather / Prayers / Quran / Azkar)
+                (Date / Weather / Prayers)
               </h5>
               <div className="col-12">
+                <span className="react">
+                  <FaReact />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
                 <span className="html">
                   <FaHtml5 />
                 </span>
@@ -359,7 +365,7 @@ const Projects = () => {
 
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
-                  <a href="https://dailyguide.netlify.app/" target="_blank">
+                  <a href="https://day-app.pages.dev/" target="_blank">
                     live perview
                   </a>
                 </button>
