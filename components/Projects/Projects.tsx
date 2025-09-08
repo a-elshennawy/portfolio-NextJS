@@ -328,7 +328,7 @@ const Projects = () => {
               }}
             >
               <Image
-                src="/images/dayapp.webp"
+                src="/images/muslimDay.webp"
                 alt="project preview"
                 fill
                 loading="lazy"
@@ -339,8 +339,8 @@ const Projects = () => {
               className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
             >
               <h5 className="col-12 py-2 m-0">
-                Islamic App <br />
-                (Date / Weather / Prayers)
+                Muslim Day <br />
+                (Date / Prayers Times / Quran)
               </h5>
               <div className="col-12">
                 <span className="react">
@@ -349,23 +349,20 @@ const Projects = () => {
                 <span className="JavaScript">
                   <SiJavascript />
                 </span>
-                <span className="html">
-                  <FaHtml5 />
-                </span>
-                <span className="JavaScript">
-                  <SiJavascript />
+                <span className="css">
+                  <FaCss3Alt />
                 </span>
                 <span className="bootstrap">
                   <FaBootstrap />
                 </span>
-                <span className="netlify">
-                  <SiNetlify />
+                <span className="cloudflare">
+                  <FaCloudflare />
                 </span>
               </div>
 
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
-                  <a href="https://day-app.pages.dev/" target="_blank">
+                  <a href="https://muslim-day.pages.dev/" target="_blank">
                     live perview
                   </a>
                 </button>
