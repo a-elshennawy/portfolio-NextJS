@@ -212,6 +212,66 @@ const Projects = () => {
               }}
             >
               <Image
+                src="/images/spendingTracker.webp"
+                alt="project preview"
+                fill
+                loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
+              />
+            </div>
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
+              <h5 className="col-12 py-2 m-0">
+                Spending Tracker <br />
+                Simpl, User friendly app to track spendings and convert
+                currencies
+                <br />
+                (Full-Stack Oriented)
+              </h5>
+              <div className="col-12">
+                <span className="react">
+                  <FaReact />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+                <span className="firebase">
+                  <IoLogoFirebase />
+                </span>
+                <span className="cloudflare">
+                  <FaCloudflare />
+                </span>
+              </div>
+              <div className="col-12 py-1">
+                <button className={`${styles.toWebApp}`}>
+                  <a href="https://spends-tracker.pages.dev/" target="_blank">
+                    live perview
+                  </a>
+                </button>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
+          >
+            <div
+              className="col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/coffeeShop.webp"
                 alt="project preview"
                 fill
@@ -244,68 +304,6 @@ const Projects = () => {
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://butter-react.netlify.app/" target="_blank">
                     live perview (Demo)
-                  </a>
-                </button>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: false, amount: 0.3 }}
-            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
-          >
-            <div
-              className="col-12"
-              style={{
-                position: "relative",
-                width: "100%",
-                aspectRatio: "16/9",
-              }}
-            >
-              <Image
-                src="/images/sa3dola.webp"
-                alt="project preview"
-                fill
-                loading="lazy"
-                style={{ objectFit: "cover", borderRadius: "12px" }}
-              />
-            </div>
-            <div
-              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
-            >
-              <h5 className="col-12 py-2 m-0">
-                Sa3dola <br />
-                Mini Blog for the Egyptian Stramer with a chat room for fans
-                <br />
-                (Full-Stack Oriented)
-              </h5>
-              <div className="col-12">
-                <span className="react">
-                  <FaReact />
-                </span>
-                <span className="JavaScript">
-                  <SiJavascript />
-                </span>
-                <span className="bootstrap">
-                  <FaBootstrap />
-                </span>
-                <span className="firebase">
-                  <IoLogoFirebase />
-                </span>
-                <span className="clerk">
-                  <SiClerk />
-                </span>
-                <span className="netlify">
-                  <SiNetlify />
-                </span>
-              </div>
-              <div className="col-12 py-1">
-                <button className={`${styles.toWebApp}`}>
-                  <a href="https://sa3dola.netlify.app/" target="_blank">
-                    live perview
                   </a>
                 </button>
               </div>
