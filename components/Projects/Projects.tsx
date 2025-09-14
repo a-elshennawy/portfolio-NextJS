@@ -11,7 +11,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import { SiClerk, SiJavascript, SiNetlify } from "react-icons/si";
+import { SiJavascript, SiNetlify } from "react-icons/si";
 
 const Projects = () => {
   const { ref } = useInView({
