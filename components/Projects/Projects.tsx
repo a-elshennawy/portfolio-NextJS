@@ -224,8 +224,7 @@ const Projects = () => {
             >
               <h5 className="col-12 py-2 m-0">
                 Spending Tracker <br />
-                Simpl, User friendly app to track spendings and convert
-                currencies
+                Simpl, User friendly spends tracker & convert currencies
                 <br />
                 (Full-Stack Oriented)
               </h5>
