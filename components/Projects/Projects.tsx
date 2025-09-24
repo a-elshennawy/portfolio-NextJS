@@ -73,7 +73,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://elsokarya.net/" target="_blank">
-                    live perview
+                    live preview
                   </a>
                 </button>
               </div>
@@ -131,7 +131,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://socially.pages.dev/" target="_blank">
-                    live perview
+                    live preview
                   </a>
                 </button>
               </div>
@@ -189,7 +189,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://clarity-tasks.pages.dev/" target="_blank">
-                    live perview
+                    live preview
                   </a>
                 </button>
               </div>
@@ -248,7 +248,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://spends-tracker.pages.dev/" target="_blank">
-                    live perview
+                    live preview
                   </a>
                 </button>
               </div>
@@ -302,7 +302,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://butter-react.netlify.app/" target="_blank">
-                    live perview (Demo)
+                    live preview (Demo)
                   </a>
                 </button>
               </div>
@@ -360,7 +360,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://muslim-day.pages.dev/" target="_blank">
-                    live perview
+                    live preview
                   </a>
                 </button>
               </div>
@@ -411,7 +411,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://fixyland.pages.dev/" target="_blank">
-                    live perview (Demo)
+                    live preview (Demo)
                   </a>
                 </button>
               </div>
@@ -469,7 +469,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://fitguide-test.netlify.app/" target="_blank">
-                    live perview (Demo)
+                    live preview (Demo)
                   </a>
                 </button>
               </div>
@@ -527,7 +527,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://gladiator-gym.netlify.app/" target="_blank">
-                    live perview
+                    live preview
                   </a>
                 </button>
               </div>
@@ -581,7 +581,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://hurstf.netlify.app/" target="_blank">
-                    live perview
+                    live preview
                   </a>
                 </button>
               </div>
@@ -635,7 +635,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://fixera.netlify.app/" target="_blank">
-                    live perview
+                    live preview
                   </a>
                 </button>
               </div>
@@ -689,7 +689,7 @@ const Projects = () => {
               <div className="col-12 py-1">
                 <button className={`${styles.toWebApp}`}>
                   <a href="https://confertest.netlify.app/" target="_blank">
-                    live perview
+                    live preview
                   </a>
                 </button>
               </div>
