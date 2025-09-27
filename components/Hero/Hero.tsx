@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import styles from "./Hero.module.scss";
-import { FaDiscord, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
 const Hero = () => {
@@ -72,15 +72,6 @@ const Hero = () => {
                 href="https://github.com/a-elshennawy"
               >
                 <FaGithub />
-              </a>
-            </div>
-            <div className={`${styles.socialItem} ${styles.discord} col-2`}>
-              <a
-                className={`${styles.a}`}
-                target="_blank"
-                href="https://discordapp.com/users/1184992200686309486s"
-              >
-                <FaDiscord />
               </a>
             </div>
             <div className={`${styles.socialItem} ${styles.gmail} col-2`}>
