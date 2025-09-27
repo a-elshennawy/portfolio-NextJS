@@ -75,15 +75,6 @@ const Hero = () => {
                 <FaGithub />
               </a>
             </div>
-            <div className={`${styles.socialItem} ${styles.instagram} col-2`}>
-              <a
-                className={`${styles.a}`}
-                target="_blank"
-                href="https://www.instagram.com/shennawy.z"
-              >
-                <FaInstagram />
-              </a>
-            </div>
             <div className={`${styles.socialItem} ${styles.discord} col-2`}>
               <a
                 className={`${styles.a}`}
