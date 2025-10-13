@@ -12,7 +12,7 @@ import {
   FaHtml5,
   FaReact,
 } from "react-icons/fa";
-import { SiClerk, SiJavascript, SiNetlify } from "react-icons/si";
+import { SiClerk, SiJavascript, SiNetlify, SiSupabase } from "react-icons/si";
 import { BsFiletypeScss } from "react-icons/bs";
 import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
 import { FaBoltLightning, FaMobileScreen } from "react-icons/fa6";
@@ -97,6 +97,9 @@ const About = () => {
             </span>
             <span className={styles.firebase}>
               <IoLogoFirebase />
+            </span>
+            <span className={styles.SupaBase}>
+              <SiSupabase />
             </span>
             <span className={styles.clerk}>
               <SiClerk />

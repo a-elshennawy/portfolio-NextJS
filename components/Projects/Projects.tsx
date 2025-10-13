@@ -11,7 +11,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import { SiJavascript, SiNetlify } from "react-icons/si";
+import { SiJavascript, SiNetlify, SiSupabase } from "react-icons/si";
 
 const Projects = () => {
   const { ref } = useInView({
@@ -96,6 +96,66 @@ const Projects = () => {
               }}
             >
               <Image
+                src="/images/theCafe.webp"
+                alt="project preview"
+                fill
+                loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "12px" }}
+              />
+            </div>
+            <div
+              className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+            >
+              <h5 className="col-12 py-2 m-0">
+                The Cafe
+                <br />
+                Fully Functional Cafe / Resturaunt Managment System & Customer
+                Service
+              </h5>
+              <div className="col-12">
+                <span className="react">
+                  <FaReact />
+                </span>
+                <span className="JavaScript">
+                  <SiJavascript />
+                </span>
+                <span className="SupaBase">
+                  <SiSupabase />
+                </span>
+                <span className="css">
+                  <FaCss3Alt />
+                </span>
+                <span className="bootstrap">
+                  <FaBootstrap />
+                </span>
+              </div>
+
+              <div className="col-12 py-1">
+                <button className={`${styles.toWebApp}`}>
+                  <a href="https://the-cafe.pages.dev/" target="_blank">
+                    live preview
+                  </a>
+                </button>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
+            className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
+          >
+            <div
+              className="col-12"
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
+              <Image
                 src="/images/socially.webp"
                 alt="project preview"
                 fill
@@ -139,7 +199,7 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -197,8 +257,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -256,8 +316,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -310,7 +370,7 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -368,8 +428,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -419,8 +479,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -477,7 +537,7 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -535,8 +595,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -589,8 +649,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
@@ -643,8 +703,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className={`row justify-content-center align-items-center col-lg-3 col-10 glassmorphism ${styles.projectCard}`}
