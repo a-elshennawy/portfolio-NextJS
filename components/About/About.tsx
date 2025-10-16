@@ -26,11 +26,7 @@ const About = () => {
 
   return (
     <>
-      <section
-        ref={ref}
-        id="about"
-        className={`${styles.about} container-fluid relative`}
-      >
+      <section ref={ref} id="about" className={`${styles.about} relative`}>
         <div
           className={`${styles.textArea} row justify-content-center align-items-center gap-2 `}
         >
