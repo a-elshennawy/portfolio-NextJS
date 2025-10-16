@@ -47,7 +47,7 @@ const Projects = () => {
   }, []);
   return (
     <>
-      <section className={`${styles.work}`}>
+      <section id="projects" className={`${styles.work}`}>
         <div className="m-0 swiper">
           <div className="swiper-wrapper">
             <div
