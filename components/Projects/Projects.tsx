@@ -26,6 +26,7 @@ const Projects = () => {
       autoplay: {
         delay: 0,
         disableOnInteraction: false,
+        pauseOnMouseEnter: false,
       },
       loop: true,
       grabCursor: true,
@@ -42,6 +43,11 @@ const Projects = () => {
         1024: {
           slidesPerView: 3.5,
           spaceBetween: 24,
+        },
+      },
+      on: {
+        touchEnd: function () {
+          swiper.autoplay.start();
         },
       },
     });
