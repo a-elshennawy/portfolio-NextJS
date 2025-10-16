@@ -22,12 +22,17 @@ const Projects = () => {
       slidesPerView: 1.5,
       spaceBetween: 20,
       centeredSlides: false,
+      speed: 5000,
       autoplay: {
-        delay: 3000,
+        delay: 0,
         disableOnInteraction: false,
       },
       loop: true,
       grabCursor: true,
+      freeMode: {
+        enabled: true,
+        momentum: false,
+      },
       effect: "slide",
       breakpoints: {
         768: {
