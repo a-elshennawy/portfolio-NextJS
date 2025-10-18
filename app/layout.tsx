@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Ahmed ElShennawy",
   description:
-    "Frontend Developer with a strong foundation in HTML, CSS, JavaScript, and React. Experienced in building responsive web applications and continuously learning new technologies. Strong problem-solving skills, team collaboration experience, and adaptability. Transitioned into tech with a passion for creating user-friendly, visually appealing web experiences.",
+    "a self-driven front-end developer with a strong eye for detail and a love for clean, responsive interfaces. I blend creative intuition with technical discipline to turn ideas into smooth, performant user experiences.",
   icons: {
     icon: "/favicon.ico",
   },

@@ -53,6 +53,11 @@ export const Footer = () => {
               <MdOutlineAlternateEmail />
             </a>
           </div>
+          <div className="col-12">
+            <h6 className="text-white m-0 p-0">
+              <small>© 2025 Ahmed ElShennawy. All Rights Reserved.</small>
+            </h6>
+          </div>
         </motion.div>
       </section>
     </>

@@ -60,7 +60,7 @@ const Projects = () => {
     <>
       <section id="projects" className={`${styles.work}`}>
         <div className="m-0 swiper">
-          <div className="swiper-wrapper">
+          <div className="swiper-wrapper align-items-center">
             <div
               className={`row justify-content-center align-items-center glassmorphism ${styles.projectCard} swiper-slide`}
             >
