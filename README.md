@@ -49,3 +49,5 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 ---
 
 _"Function meets finesse."_
+
+© 2025 Ahmed ElShennawy. All Rights Reserved.
