@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hey, I'm Ahmed ElShennawy 👋
 
-## Getting Started
+## Full-Stack Oriented Front-End Developer
 
-First, run the development server:
+I'm a self-driven front-end developer who treats every UI like it's a final boss fight — nothing sloppy survives. I blend creative intuition with technical discipline to turn ideas into smooth, performant user experiences.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🎯 What I Do
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I build responsive web applications with a strong eye for detail and a love for clean, pixel-perfect interfaces. From e-commerce platforms to management systems, I create user-friendly experiences that look great and work flawlessly across all devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ⚡ My Approach
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Fast & Focused**: I move quickly without cutting corners — delivering clean builds fast, then refining with precision
+- **Pixel Precision**: Every component I craft is intentional — I obsess over alignment, spacing, and visual clarity
+- **Mobile-First Always**: From the smallest screens up, I design interfaces that feel smooth, natural, and touch-friendly
+- **Clarity Wins**: Whether in code or communication, I keep things clear — no guesswork, no messy logic
 
-## Learn More
+### 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+**Core**: React • Next.js • JavaScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Styling**: CSS • SCSS • Bootstrap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Tools**: Git • GitHub • Firebase • Supabase • Clerk
 
-## Deploy on Vercel
+**Deploy**: Vercel • Netlify • Cloudflare Pages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🚀 Featured Work
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**El-Sokarya** - Full-stack e-commerce platform for a watches shop with Firebase backend
+
+**The Cafe** - Complete restaurant management system with Supabase integration
+
+**Open Lab** - Open-source laboratory management system
+
+**Socially** - Anonymous social media application with real-time features
+
+**Clarity Tasks** - Task management app with authentication and progress tracking
+
+### 🌍 Let's Connect
+
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of something amazing.
+
+- 📧 Email: ahmedshennawy997@gmail.com
+- 💼 LinkedIn: [shennawyz](https://www.linkedin.com/in/shennawyz)
+- 💻 GitHub: [a-elshennawy](https://github.com/a-elshennawy)
+- 📱 WhatsApp: [+201033926177](https://wa.me/201033926177)
+
+---
+
+_"Function meets finesse."_
