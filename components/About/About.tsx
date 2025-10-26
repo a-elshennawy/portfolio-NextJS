@@ -12,7 +12,13 @@ import {
   FaHtml5,
   FaReact,
 } from "react-icons/fa";
-import { SiClerk, SiJavascript, SiNetlify, SiSupabase } from "react-icons/si";
+import {
+  SiClerk,
+  SiJavascript,
+  SiNetlify,
+  SiNextdotjs,
+  SiSupabase,
+} from "react-icons/si";
 import { BsFiletypeScss } from "react-icons/bs";
 import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
 import { FaBoltLightning, FaMobileScreen } from "react-icons/fa6";
@@ -69,6 +75,9 @@ const About = () => {
           >
             <span className={styles.react}>
               <FaReact />
+            </span>
+            <span className={styles.next}>
+              <SiNextdotjs />
             </span>
             <span className={styles.JavaScript}>
               <SiJavascript />

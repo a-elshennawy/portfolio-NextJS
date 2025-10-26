@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import {
+  SiGooglecloud,
   SiJavascript,
   SiNetlify,
   SiNextdotjs,
@@ -96,14 +97,17 @@ const Projects = () => {
                   Fullstack Oriented Front-End WebApp for a Watches Shop
                 </h5>
                 <div className="col-12">
-                  <span className="next">
-                    <SiNextdotjs />
+                  <span className="react">
+                    <FaReact />
                   </span>
-                  <span className="TypeScript">
-                    <SiTypescript />
+                  <span className="JavaScript">
+                    <SiJavascript />
                   </span>
-                  <span className="zustand">
-                    <GiBearFace />
+                  <span className="firebase">
+                    <IoLogoFirebase />
+                  </span>
+                  <span className="Gcloud">
+                    <SiGooglecloud />
                   </span>
                   <span className="css">
                     <FaCss3Alt />
@@ -208,11 +212,14 @@ const Projects = () => {
                   download as PDF / PNG
                 </h5>
                 <div className="col-12">
-                  <span className="react">
-                    <FaReact />
+                  <span className="next">
+                    <SiNextdotjs />
                   </span>
-                  <span className="JavaScript">
-                    <SiJavascript />
+                  <span className="TypeScript">
+                    <SiTypescript />
+                  </span>
+                  <span className="zustand">
+                    <GiBearFace />
                   </span>
                   <span className="css">
                     <FaCss3Alt />
