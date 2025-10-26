@@ -88,8 +88,14 @@ section {
 .react {
   color: #3978ff !important;
 }
+.next {
+  color: #fff !important;
+}
 .JavaScript {
   color: #fffb00 !important;
+}
+.TypeScript {
+  color: #219bff !important;
 }
 .html {
   color: #ff9d1e !important;
@@ -99,6 +105,9 @@ section {
 }
 .bootstrap {
   color: #a200ff !important;
+}
+.zustand {
+  color: #fff !important;
 }
 .scss {
   color: #cb47ff !important;

@@ -9,11 +9,18 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import { SiJavascript, SiNetlify, SiSupabase } from "react-icons/si";
+import {
+  SiJavascript,
+  SiNetlify,
+  SiNextdotjs,
+  SiSupabase,
+  SiTypescript,
+} from "react-icons/si";
 import Swiper from "swiper";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { useEffect } from "react";
+import { GiBearFace } from "react-icons/gi";
 
 const Projects = () => {
   useEffect(() => {
@@ -56,6 +63,7 @@ const Projects = () => {
       swiper.destroy();
     };
   }, []);
+
   return (
     <>
       <section id="projects" className={`${styles.work}`}>
@@ -88,14 +96,14 @@ const Projects = () => {
                   Fullstack Oriented Front-End WebApp for a Watches Shop
                 </h5>
                 <div className="col-12">
-                  <span className="react">
-                    <FaReact />
+                  <span className="next">
+                    <SiNextdotjs />
                   </span>
-                  <span className="JavaScript">
-                    <SiJavascript />
+                  <span className="TypeScript">
+                    <SiTypescript />
                   </span>
-                  <span className="firebase">
-                    <IoLogoFirebase />
+                  <span className="zustand">
+                    <GiBearFace />
                   </span>
                   <span className="css">
                     <FaCss3Alt />
@@ -164,6 +172,65 @@ const Projects = () => {
                 <div className="col-12 py-1">
                   <button className={`${styles.toWebApp}`}>
                     <a href="https://the-cafe.pages.dev/" target="_blank">
+                      live preview
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className={`row justify-content-center align-items-center glassmorphism ${styles.projectCard} swiper-slide`}
+            >
+              <div
+                className="col-12"
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  aspectRatio: "16/9",
+                }}
+              >
+                <Image
+                  src="/images/openLab.webp"
+                  alt="project preview"
+                  fill
+                  loading="lazy"
+                  style={{ objectFit: "cover", borderRadius: "12px" }}
+                />
+              </div>
+              <div
+                className={`${styles.content} row justify-content-center align-items-center gap-1 col-12`}
+              >
+                <h5 className="col-12 py-2 m-0">
+                  Event Cards Generator
+                  <br />
+                  Customized Events Cards generator with full control to
+                  download as PDF / PNG
+                </h5>
+                <div className="col-12">
+                  <span className="react">
+                    <FaReact />
+                  </span>
+                  <span className="JavaScript">
+                    <SiJavascript />
+                  </span>
+                  <span className="css">
+                    <FaCss3Alt />
+                  </span>
+                  <span className="bootstrap">
+                    <FaBootstrap />
+                  </span>
+                  <span className="cloudflare">
+                    <FaCloudflare />
+                  </span>
+                </div>
+
+                <div className="col-12 py-1">
+                  <button className={`${styles.toWebApp}`}>
+                    <a
+                      href="https://open-source-lab.pages.dev/"
+                      target="_blank"
+                    >
                       live preview
                     </a>
                   </button>
