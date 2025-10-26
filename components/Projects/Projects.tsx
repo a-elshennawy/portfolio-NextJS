@@ -191,7 +191,7 @@ const Projects = () => {
                 }}
               >
                 <Image
-                  src="/images/openLab.webp"
+                  src="/images/eventCards.webp"
                   alt="project preview"
                   fill
                   loading="lazy"
@@ -227,10 +227,7 @@ const Projects = () => {
 
                 <div className="col-12 py-1">
                   <button className={`${styles.toWebApp}`}>
-                    <a
-                      href="https://open-source-lab.pages.dev/"
-                      target="_blank"
-                    >
+                    <a href="https://event-cards.pages.dev/" target="_blank">
                       live preview
                     </a>
                   </button>
