@@ -25,21 +25,21 @@ const Hero = () => {
 
         <div className={styles.textArea}>
           <motion.h1
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ y: -50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, ease: "easeInOut" }}
           >
             Function Meets Finesse.
           </motion.h1>
 
-          <motion.h6
+          <motion.h5
             style={{ overflow: "hidden", whiteSpace: "nowrap" }}
             initial={{ width: 0 }}
             animate={{ width: "fit-content" }}
             transition={{ duration: 2, ease: "easeInOut" }}
           >
-            &quot;Ahmed ElShennawy. Pixel perfectionist.&quot;
-          </motion.h6>
+            Ahmed ElShennawy. Pixel Perfectionist.
+          </motion.h5>
 
           <motion.div
             initial={{ opacity: 0 }}
