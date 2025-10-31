@@ -38,7 +38,7 @@ const Hero = () => {
             animate={{ width: "fit-content" }}
             transition={{ duration: 2, ease: "easeInOut" }}
           >
-            "Ahmed ElShennawy. Pixel perfectionist."
+            &quot;Ahmed ElShennawy. Pixel perfectionist.&quot;
           </motion.h6>
 
           <motion.div
