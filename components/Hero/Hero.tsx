@@ -35,14 +35,10 @@ const Hero = () => {
           <motion.h6
             style={{ overflow: "hidden", whiteSpace: "nowrap" }}
             initial={{ width: 0 }}
-            animate={{ width: "100%" }}
+            animate={{ width: "fit-content" }}
             transition={{ duration: 2, ease: "easeInOut" }}
           >
-            <i>
-              Ahmed ElShennawy. React nerd. Pixel perfectionist.
-              <br />
-              <q>Full-Stack Oriented Front-end Dev.</q>
-            </i>
+            "Ahmed ElShennawy. Pixel perfectionist."
           </motion.h6>
 
           <motion.div

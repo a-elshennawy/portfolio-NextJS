@@ -18,6 +18,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "josefinSans";
+  src: url("/fonts/JosefinSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   max-width: 100dvw;
