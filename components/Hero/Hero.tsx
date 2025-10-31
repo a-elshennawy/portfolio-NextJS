@@ -25,11 +25,11 @@ const Hero = () => {
 
         <div className={styles.textArea}>
           <motion.h1
-            initial={{ y: 25, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{ duration: 1, ease: "easeInOut" }}
           >
-            Function meets finesse.
+            Function Meets Finesse.
           </motion.h1>
 
           <motion.h6
